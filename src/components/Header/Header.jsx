@@ -1,3 +1,5 @@
+import CvButton from "../CV-Button/CV-Button";
+
 const Header = () => {
   return (
     <div className="header">
@@ -13,6 +15,7 @@ const Header = () => {
         </p>
         <p id="infoText">located in Manchester England.</p>
       </div>
+      <CvButton />
     </div>
   );
 };
