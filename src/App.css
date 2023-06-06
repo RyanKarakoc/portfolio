@@ -1,12 +1,38 @@
 body {
   background-color: rgb(237, 246, 251);
 }
+
 .header {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  margin-top: 10vh;
-  line-height: 15px;
+  margin: auto;
+  width: 50%;
   color: rgb(10, 12, 16);
+  line-height: 2px;
+}
+
+.greeting {
+  margin-bottom: 5px;
+}
+
+.name {
+  display: flex;
+}
+#name {
+  margin-right: 10px;
+}
+
+#ryan {
+  color: rgb(19, 126, 241);
+  margin-right: 10px;
+}
+
+.info {
+  flex-wrap: wrap;
+  margin: 0;
+  line-height: 1;
+}
+
+#infoText {
+  margin-top: 8px;
 }
 
 .navbar {
