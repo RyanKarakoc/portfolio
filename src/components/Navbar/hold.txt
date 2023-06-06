@@ -1,0 +1,4 @@
+      <div className="logos">
+        <img id="navButtons" src={linkedInButton} alt="LinkedIn logo" />
+        <img id="navButtons" src={gitHubButton} alt="gitHub logo" />
+      </div>
