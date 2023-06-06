@@ -49,3 +49,13 @@ body {
 #nav:hover {
   color: rgb(19, 126, 241);
 }
+
+.logos {
+  display: flex;
+  justify-content: center;
+  height: 21px;
+}
+
+#logo {
+  margin-left: 10px;
+}
