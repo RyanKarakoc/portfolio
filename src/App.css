@@ -4,11 +4,16 @@ body {
 
 @media (max-width: 400px) {
   .navbar {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 8vw;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    height: 60px;
+    background-color: rgb(237, 246, 251);
+    z-index: 1;
   }
 
   #nav {
