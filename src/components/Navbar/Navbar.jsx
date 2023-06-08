@@ -1,4 +1,8 @@
 const Navbar = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   const handleAboutClick = () => {
     const element = document.getElementsByClassName("aboutMe");
     if (element) {
@@ -8,7 +12,9 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <h1 id="nav">HOME</h1>
+      <h1 id="nav" onClick={scrollToTop}>
+        HOME
+      </h1>
       <h1 id="nav" onClick={handleAboutClick}>
         ABOUT
       </h1>
