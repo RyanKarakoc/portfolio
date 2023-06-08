@@ -21,6 +21,7 @@ body {
   }
   #nav:hover {
     color: rgb(51, 99, 211);
+    cursor: pointer;
   }
 
   .logos {
@@ -95,8 +96,8 @@ body {
   }
 
   .aboutMe {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 300px;
+    margin-bottom: 300px;
     text-align: center;
     color: rgb(51, 99, 211);
   }
@@ -143,6 +144,7 @@ body {
     font-size: 15px;
   }
   #nav:hover {
+    cursor: pointer;
     color: rgb(51, 99, 211);
   }
 
@@ -203,6 +205,9 @@ body {
   }
   .buttonContainer {
     margin-top: 20px;
+  }
+  .buttonContainer:hover {
+    cursor: pointer;
   }
 
   .CvButton {
