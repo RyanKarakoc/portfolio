@@ -28,7 +28,6 @@ const Navbar = () => {
       <h1 id="nav" onClick={handleProjectsClick}>
         PROJECTS
       </h1>
-      <h1 id="nav">RESUME</h1>
       <h1 id="nav">CONTACT</h1>
     </div>
   );
