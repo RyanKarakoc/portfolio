@@ -17,6 +17,13 @@ const Navbar = () => {
     }
   };
 
+  const handleContactClick = () => {
+    const element = document.getElementsByClassName("contact");
+    if (element) {
+      element[0].scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  };
+
   return (
     <div className="navbar">
       <h1 id="nav" onClick={scrollToTop}>
@@ -28,7 +35,9 @@ const Navbar = () => {
       <h1 id="nav" onClick={handleProjectsClick}>
         PROJECTS
       </h1>
-      <h1 id="nav">CONTACT</h1>
+      <h1 id="nav" onClick={handleContactClick}>
+        CONTACT
+      </h1>
     </div>
   );
 };

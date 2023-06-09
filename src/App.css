@@ -534,4 +534,21 @@ body {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
   }
+
+  .contact {
+    margin-top: 400px;
+    margin-bottom: 400px;
+    color: rgb(51, 99, 211);
+    text-align: center;
+  }
+
+  .contactText {
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+  }
+
+  #emailTitle {
+    margin-bottom: 60px;
+  }
 }
