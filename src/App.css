@@ -367,7 +367,7 @@ body {
   }
 
   .aboutMe {
-    margin-top: 300px;
+    margin-top: 560px;
     margin-bottom: 560px;
     text-align: center;
     color: rgb(51, 99, 211);
@@ -392,5 +392,146 @@ body {
     width: 90%;
     margin-top: 10px;
     margin-bottom: 0px;
+  }
+
+  .projects {
+    color: rgb(51, 99, 211);
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+
+  .projectContainer {
+    display: grid;
+    grid-template-columns: 450px 400px 200px 400px 450px;
+    grid-template-rows: 50px 60px 55px 55px 55px 40px 80px 50px 60px 55px 55px 55px 40px 80px;
+  }
+
+  #projectImg1Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin: 0px;
+    grid-area: 1 / 2 / 1 / 2;
+  }
+
+  #projectImg1Description {
+    color: black;
+    margin-top: 0px;
+    grid-area: 2 / 2 / 2 / 2;
+  }
+
+  #projectImg1 {
+    border: 2px solid black;
+    grid-area: 3 / 2 / 7 / 2;
+  }
+
+  #projectImg1Status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgb(255, 255, 0, 0.7);
+    grid-area: 6 / 2 / 6 / 2;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  #projectImg2Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin: 0px;
+    grid-area: 1 / 4 / 1 / 4;
+  }
+
+  #projectImg2Description {
+    color: black;
+    margin-top: 0px;
+    grid-area: 2 / 4 / 2 / 4;
+  }
+
+  #projectImg2 {
+    border: 2px solid black;
+    grid-area: 3 / 4 / 7 / 4;
+  }
+
+  #projectImg2Status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgb(255, 255, 0, 0.7);
+    grid-area: 6 / 4 / 6 / 4;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  #projectImg3Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin: 0px;
+    grid-area: 8 / 2 / 8 / 2;
+  }
+
+  #projectImg3Description {
+    color: black;
+    margin-top: 0px;
+    grid-area: 9 / 2 / 9 / 2;
+  }
+
+  #projectImg3 {
+    border: 2px solid black;
+    grid-area: 10 / 2 / 14 / 2;
+  }
+
+  #projectImg3Status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgba(0, 255, 30, 0.7);
+    grid-area: 13 / 2 / 13 / 2;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  #projectImg4Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin: 0px;
+    grid-area: 8 / 4 / 8 / 4;
+  }
+
+  #projectImg4Description {
+    color: black;
+    margin-top: 0px;
+    grid-area: 9 / 4 / 9 / 4;
+  }
+
+  #projectImg4 {
+    border: 2px solid black;
+    grid-area: 10 / 4 / 14 / 4;
+  }
+
+  #projectImg4Status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgba(255, 255, 0, 0.7);
+    grid-area: 13 / 4 / 13 / 4;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
   }
 }
