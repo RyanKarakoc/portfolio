@@ -6,7 +6,7 @@ const Navbar = () => {
   const handleAboutClick = () => {
     const element = document.getElementsByClassName("aboutMe");
     if (element) {
-      element[0].scrollIntoView({ behavior: "smooth" });
+      element[0].scrollIntoView({ behavior: "smooth", block: "center" });
     }
   };
 
