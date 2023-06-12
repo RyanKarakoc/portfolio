@@ -392,11 +392,13 @@ body {
 
   .logos {
     display: flex;
+    gap: 15px;
     justify-content: center;
   }
 
   #logo {
     height: 21px;
+    cursor: pointer;
   }
 
   h1 {
