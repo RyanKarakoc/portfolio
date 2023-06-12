@@ -8,6 +8,10 @@ const Contact = () => {
     setEmailFormHidden(true);
   };
 
+  const handleLinkedInClick = () => {
+    window.open("https://www.linkedin.com/in/ryan-karakoc", "_blank").focus();
+  };
+
   return (
     <div className="contact">
       <h1>Contact</h1>
@@ -24,7 +28,9 @@ const Contact = () => {
           setEmailFormHidden={setEmailFormHidden}
         />
       ) : null}
-      <h2 id="LinkedInTitle">LinkedIn</h2>
+      <h2 id="LinkedInTitle" onClick={handleLinkedInClick}>
+        LinkedIn
+      </h2>
     </div>
   );
 };

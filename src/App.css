@@ -558,6 +558,10 @@ body {
     cursor: pointer;
   }
 
+  #LinkedInTitle:hover {
+    cursor: pointer;
+  }
+
   .emailForm {
     display: flex;
     justify-content: center;
