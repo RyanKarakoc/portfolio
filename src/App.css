@@ -281,16 +281,20 @@ body {
   }
 
   #emailTitle {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    width: fit-content;
+    margin: 0px auto 20px auto;
   }
 
   #emailTitle:hover {
     cursor: pointer;
   }
 
-  #LinkedInTitle:hover {
+  #linkedInTitle {
+    width: fit-content;
+    margin: 0px auto 0px auto;
+  }
+
+  #linkedInTitle:hover {
     cursor: pointer;
   }
 
@@ -649,16 +653,20 @@ body {
   }
 
   #emailTitle {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    width: fit-content;
+    margin: 0px auto 20px auto;
   }
 
   #emailTitle:hover {
     cursor: pointer;
   }
 
-  #LinkedInTitle:hover {
+  #linkedInTitle {
+    width: fit-content;
+    margin: auto;
+  }
+
+  #linkedInTitle:hover {
     cursor: pointer;
   }
 

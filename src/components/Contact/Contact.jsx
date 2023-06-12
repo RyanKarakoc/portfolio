@@ -28,7 +28,7 @@ const Contact = () => {
           setEmailFormHidden={setEmailFormHidden}
         />
       ) : null}
-      <h2 id="LinkedInTitle" onClick={handleLinkedInClick}>
+      <h2 id="linkedInTitle" onClick={handleLinkedInClick}>
         LinkedIn
       </h2>
     </div>
