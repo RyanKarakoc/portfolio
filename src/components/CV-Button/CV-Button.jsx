@@ -1,9 +1,22 @@
+import resume from "../../downloads/Resume.docx";
+
 const CvButton = () => {
+  // const handleDownloadCVClick = () => {
+  //   console.log("hello");
+  // };
+
   return (
     <div className="buttonContainer">
-      <div className="CvButton">
-        <p id="CvButton">Download CV</p>
-      </div>
+      <a
+        href={resume}
+        download="Ryan-Karakoc-Resume"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="CvButton">
+          <p id="CvButton">Download CV</p>
+        </div>
+      </a>
     </div>
   );
 };
