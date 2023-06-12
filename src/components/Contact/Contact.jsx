@@ -1,5 +1,5 @@
-import { useState } from "react";
 import EmailForm from "./EmailForm";
+import { useState } from "react";
 
 const Contact = () => {
   const [emailFormHidden, setEmailFormHidden] = useState(false);
@@ -7,7 +7,7 @@ const Contact = () => {
   const handleEmailClick = () => {
     setEmailFormHidden(true);
   };
-  
+
   return (
     <div className="contact">
       <h1>Contact</h1>
@@ -18,7 +18,12 @@ const Contact = () => {
       <h2 id="emailTitle" onClick={handleEmailClick}>
         Send me an email!
       </h2>
-      {emailFormHidden ? <EmailForm /> : null}
+      {emailFormHidden ? (
+        <EmailForm
+          emailFormHidden={emailFormHidden}
+          setEmailFormHidden={setEmailFormHidden}
+        />
+      ) : null}
       <h2 id="LinkedInTitle">LinkedIn</h2>
     </div>
   );

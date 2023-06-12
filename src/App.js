@@ -7,6 +7,8 @@ import Projects from "./components/Projects/Projects";
 import SocialButtons from "./components/Socials/Buttons";
 
 function App() {
+
+  
   return (
     <div className="App">
       <Navbar />

@@ -1,7 +1,10 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import EmailCompletionModal from "./EmailCompletionModal";
 
-const EmailForm = () => {
+const EmailForm = ({ emailFormHidden, setEmailFormHidden }) => {
+  const [emailSent, setEmailSent] = useState(false);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -16,17 +19,24 @@ const EmailForm = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log(`Email Sent: ${result.text}`);
         },
         (error) => {
           console.log(error.text);
         }
       );
     e.target.reset();
+    setEmailSent(true);
   };
 
   return (
     <div className="emailForm">
+      {emailSent ? (
+        <EmailCompletionModal
+          setEmailSent={setEmailSent}
+          setEmailFormHidden={setEmailFormHidden}
+        />
+      ) : null}
       <div className="formContainer">
         <form ref={form} onSubmit={sendEmail} autoComplete="off">
           <input
