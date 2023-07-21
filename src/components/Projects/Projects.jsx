@@ -3,11 +3,17 @@ import allotment from "../../images/projects/Allotment3.png";
 import htmlCanvasGame from "../../images/projects/htmlCanvasGame.png"
 
 const Projects = () => {
-  const handleProject3OnClick = () => {
+  const handleProject2OnClick = () => {
     window
       .open("https://github.com/RyanKarakoc/Allotment-App", "_blank")
       .focus();
   };
+
+  const handleProject3OnClick = () => {
+      window
+        .open("https://github.com/RyanKarakoc/htmlCanvasGame", "_blank")
+        .focus();
+  }
   return (
     <div className="projects">
       <h1>My Projects</h1>
@@ -19,7 +25,7 @@ const Projects = () => {
         </p>
         <img src={gameProject} alt="" id="projectImg1" />
         <div id="projectImg1Status">In Progress</div>
-        <h2 id="projectImg2Header" onClick={handleProject3OnClick}>
+        <h2 id="projectImg2Header" onClick={handleProject2OnClick}>
           Allotment
         </h2>
         <p id="projectImg2Description">
@@ -30,14 +36,14 @@ const Projects = () => {
           src={allotment}
           alt=""
           id="projectImg2"
-          onClick={handleProject3OnClick}
+          onClick={handleProject2OnClick}
         />
         <div id="projectImg2Status">Completed</div>
-        <h2 id="projectImg3Header">Html Canvas Game</h2>
+        <h2 id="projectImg3Header" onClick={handleProject3OnClick}>Html Canvas Game</h2>
         <p id="projectImg3Description">
           platfrom game using html canvas and javascript, defeat as many enemies withing 30s using your energy and trying not to take unwanted damage.
         </p>
-        <img src={htmlCanvasGame} alt="" id="projectImg3" />
+        <img src={htmlCanvasGame} alt="" id="projectImg3" onClick={handleProject3OnClick}/>
         <div id="projectImg3Status">In Progress</div>
         {/* <h2 id="projectImg4Header">Project 4</h2>
         <p id="projectImg4Description">
