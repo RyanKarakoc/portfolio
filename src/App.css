@@ -151,6 +151,7 @@ body {
   #projectImg1Description {
     color: black;
     margin-top: 0px;
+    margin-bottom: 10px;
     grid-area: 2 / 2 / 2 / 5;
   }
 
@@ -185,6 +186,7 @@ body {
   #projectImg2Description {
     color: black;
     margin-top: 0px;
+    margin-bottom: 10px;
     grid-area: 9 / 2 / 9 / 5;
   }
 
@@ -218,6 +220,7 @@ body {
 
   #projectImg3Description {
     color: black;
+    margin-bottom: 10px;
     margin-top: 0px;
     grid-area: 16 / 2 / 16 / 5;
   }
@@ -253,6 +256,7 @@ body {
   #projectImg4Description {
     color: black;
     margin-top: 0px;
+    margin-bottom: 10px;
     grid-area: 23 / 2 / 23 / 5;
   }
 
