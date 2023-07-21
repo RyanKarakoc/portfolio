@@ -1,5 +1,7 @@
 import gameProject from "../../images/projects/Game.png";
 import allotment from "../../images/projects/Allotment3.png";
+// import htmlCanvasGame from "../../images/projects/htmlCanvasGame.png"
+
 const Projects = () => {
   const handleProject3OnClick = () => {
     window
@@ -31,13 +33,13 @@ const Projects = () => {
           onClick={handleProject3OnClick}
         />
         <div id="projectImg2Status">Completed</div>
-        {/* <h2 id="projectImg3Header">Project 3</h2>
+        <h2 id="projectImg3Header">Html Canvas Game</h2>
         <p id="projectImg3Description">
-          A little bit of imformation regading project 3
+          platfrom game using html canvas and javascript, defeat as many enemies withing 30s using your energy and trying not to take unwanted damage.
         </p>
-        <img src="" alt="" id="projectImg3" />
+        <img src={htmlCanvasGame} alt="" id="projectImg3" />
         <div id="projectImg3Status">In Progress</div>
-        <h2 id="projectImg4Header">Project 4</h2>
+        {/* <h2 id="projectImg4Header">Project 4</h2>
         <p id="projectImg4Description">
           A little bit of imformation regading project 4
         </p>
