@@ -39,7 +39,7 @@ const Projects = () => {
           onClick={handleProject2OnClick}
         />
         <div id="projectImg2Status">Completed</div>
-        <h2 id="projectImg3Header" onClick={handleProject3OnClick}>Html Canvas Game</h2>
+        <h2 id="projectImg3Header" onClick={handleProject3OnClick}>Html Canvas</h2>
         <p id="projectImg3Description">
           platfrom game using html canvas and javascript, defeat as many enemies withing 30s using your energy and trying not to take unwanted damage.
         </p>
