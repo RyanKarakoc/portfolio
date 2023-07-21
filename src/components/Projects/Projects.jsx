@@ -1,6 +1,6 @@
 import gameProject from "../../images/projects/Game.png";
 import allotment from "../../images/projects/Allotment3.png";
-// import htmlCanvasGame from "../../images/projects/htmlCanvasGame.png"
+import htmlCanvasGame from "../../images/projects/htmlCanvasGame.png"
 
 const Projects = () => {
   const handleProject3OnClick = () => {
