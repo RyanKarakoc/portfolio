@@ -11,7 +11,7 @@ const Projects = () => {
 
   const handleProject3OnClick = () => {
       window
-        .open("https://github.com/RyanKarakoc/htmlCanvasGame", "_blank")
+        .open("https://spookycanvasgame.netlify.app/", "_blank")
         .focus();
   }
   return (
