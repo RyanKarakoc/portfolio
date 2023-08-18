@@ -44,7 +44,7 @@ const Projects = () => {
           platfrom game using html canvas and javascript, defeat as many enemies withing 30s using your energy and trying not to take unwanted damage.
         </p>
         <img src={htmlCanvasGame} alt="" id="projectImg3" onClick={handleProject3OnClick}/>
-        <div id="projectImg3Status">In Progress</div>
+        <div id="projectImg3Status">Completed</div>
         {/* <h2 id="projectImg4Header">Project 4</h2>
         <p id="projectImg4Description">
           A little bit of imformation regading project 4
