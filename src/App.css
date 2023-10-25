@@ -654,6 +654,8 @@ body {
   #projectImg4 {
     border: 2px solid black;
     grid-area: 10 / 4 / 14 / 4;
+    width: 396px;
+    height: 201px;
     cursor: pointer;
   }
 

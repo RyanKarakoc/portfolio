@@ -35,7 +35,7 @@ const Projects = () => {
         </h2>
         <p id="projectImg2Description">
           Mobile app to help users plant veg at home using notifications for
-          watering or seasonal harvest / sowing dates etc..
+          watering or seasonal harvest / sowing
         </p>
         <img
           src={allotment}
@@ -48,8 +48,8 @@ const Projects = () => {
           Html Canvas
         </h2>
         <p id="projectImg3Description">
-          platfrom game using html canvas and javascript, defeat as many enemies
-          withing 30s using your energy and trying not to take unwanted damage.
+          defeat as many enemies withing 30s using your energy and trying not to
+          take unwanted damage.
         </p>
         <img
           src={htmlCanvasGame}
