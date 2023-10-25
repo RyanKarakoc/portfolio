@@ -1,6 +1,7 @@
 import gameProject from "../../images/projects/Game.png";
 import allotment from "../../images/projects/Allotment3.png";
-import htmlCanvasGame from "../../images/projects/htmlCanvasGame.png"
+import htmlCanvasGame from "../../images/projects/htmlCanvasGame.png";
+import sandboxChess from "../../images/projects/Sandbox Chess.png";
 
 const Projects = () => {
   const handleProject2OnClick = () => {
@@ -10,10 +11,14 @@ const Projects = () => {
   };
 
   const handleProject3OnClick = () => {
-      window
-        .open("https://spookycanvasgame.netlify.app/", "_blank")
-        .focus();
-  }
+    window.open("https://spookycanvasgame.netlify.app/", "_blank").focus();
+  };
+
+  const handleProject4OnClick = () => {
+    window
+      .open("https://github.com/RyanKarakoc/sandboxChess", "_blank")
+      .focus();
+  };
   return (
     <div className="projects">
       <h1>My Projects</h1>
@@ -39,18 +44,31 @@ const Projects = () => {
           onClick={handleProject2OnClick}
         />
         <div id="projectImg2Status">Completed</div>
-        <h2 id="projectImg3Header" onClick={handleProject3OnClick}>Html Canvas</h2>
+        <h2 id="projectImg3Header" onClick={handleProject3OnClick}>
+          Html Canvas
+        </h2>
         <p id="projectImg3Description">
-          platfrom game using html canvas and javascript, defeat as many enemies withing 30s using your energy and trying not to take unwanted damage.
+          platfrom game using html canvas and javascript, defeat as many enemies
+          withing 30s using your energy and trying not to take unwanted damage.
         </p>
-        <img src={htmlCanvasGame} alt="" id="projectImg3" onClick={handleProject3OnClick}/>
+        <img
+          src={htmlCanvasGame}
+          alt=""
+          id="projectImg3"
+          onClick={handleProject3OnClick}
+        />
         <div id="projectImg3Status">Completed</div>
-        {/* <h2 id="projectImg4Header">Project 4</h2>
+        <h2 id="projectImg4Header">Sandbox Chess</h2>
         <p id="projectImg4Description">
-          A little bit of imformation regading project 4
+          Sandbox enviroment for chess, analyse and practice your chess skills.
         </p>
-        <img src="" alt="" id="projectImg4" />
-        <div id="projectImg4Status">In Progress</div> */}
+        <img
+          src={sandboxChess}
+          alt=""
+          id="projectImg4"
+          onClick={handleProject4OnClick}
+        />
+        <div id="projectImg4Status">In Progress</div>
       </div>
     </div>
   );
