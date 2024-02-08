@@ -7,9 +7,7 @@ const SocialButtons = () => {
   };
 
   const handleGitHubClick = () => {
-    window
-      .open("https://github.com/RyanKarakoc?tab=repositories", "_blank")
-      .focus();
+    window.open("https://github.com/RyanKarakoc", "_blank").focus();
   };
   return (
     <div className="logos">
