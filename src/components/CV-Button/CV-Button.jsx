@@ -1,4 +1,4 @@
-import resume from "../../downloads/Resume.docx";
+import resume from "../../downloads/Resume.pdf";
 
 const CvButton = () => {
   // const handleDownloadCVClick = () => {
